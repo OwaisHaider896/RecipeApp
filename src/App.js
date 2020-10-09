@@ -19,6 +19,7 @@ export default function App() {
       `https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=${querry}&app_id=${Id}&app_key=${Key}`
     );
     const data = await response.json();
+    console.log(data);
 
     setRecipe(data.hits);
   };

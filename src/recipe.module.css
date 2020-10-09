@@ -11,8 +11,16 @@
 .image {
   border-radius: 10px;
   border: 1px solid black;
+<<<<<<< Codesandbox
+  min-width: 220px;
+=======
   min-width: 240px;
+>>>>>>> GitHub
   min-height: 200px;
   border-radius: 50%;
+<<<<<<< Codesandbox
+  margin-bottom: 10px;
+=======
   margin-bottom: 20px;
+>>>>>>> GitHub
 }
